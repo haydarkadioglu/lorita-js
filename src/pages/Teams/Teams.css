@@ -1,0 +1,135 @@
+.teams-container {
+  min-height: 100vh;
+  padding: 6rem 2rem 2rem;
+  position: relative;
+}
+
+.teams-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.teams-content h1 {
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.member-image-container {
+  flex: 0 0 200px;
+  margin-right: 2rem;
+}
+
+.member-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.member-info {
+  flex: 1;
+  text-align: left;
+}
+
+.member-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.role {
+  color: #007bff;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.view-cv-btn {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.view-cv-btn:hover {
+  background: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+  .team-grid {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .team-member {
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .member-image-container {
+    flex: 0 0 150px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .member-image {
+    height: 150px;
+  }
+
+  .team-member:hover {
+    transform: translateY(-2px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .teams-content h1 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+  }
+
+  .team-grid {
+    padding: 0.5rem;
+  }
+
+  .member-image-container {
+    flex: 0 0 120px;
+  }
+
+  .member-image {
+    height: 120px;
+  }
+}

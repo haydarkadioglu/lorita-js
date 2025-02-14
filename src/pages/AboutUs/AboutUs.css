@@ -1,0 +1,73 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto; /* Allow scrolling */
+}
+
+.aboutus-container {
+  position: relative;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh; /* Ensure it takes full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-animation {
+  position: fixed; /* Cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #00008b, #4b0082, #000);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+  z-index: -1;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.aboutus-section {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.aboutus-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.main-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.additional-section {
+  margin: 4rem 0;
+  text-align: left;
+}
+
+.additional-text {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.mission-section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: #f1f1f1;
+  border-radius: 12px;
+  color: #333;
+}
