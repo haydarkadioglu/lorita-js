@@ -42,7 +42,7 @@ const CV = () => {
             </div>
             <div className="contact-info">
               <h1>Haydar Kadıoğlu</h1>
-              <p>Email: a.haydar.kadioglu@gmail.com</p>
+              <p>Email: @.com</p>
             </div>
           </div>
 
