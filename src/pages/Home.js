@@ -22,9 +22,9 @@ const Home = () => {
   };
 
   const content = {
-    title: "Welcome to Notiral AI Solutions",
+    title: "Welcome to Lorita AI Solutions",
     subTitle: "Custom AI Solutions for Enterprise",
-    description: "Notiral specializes in developing cutting-edge artificial intelligence solutions customized for enterprise needs. Our expertise includes:",
+    description: "Lorita specializes in developing cutting-edge artificial intelligence solutions customized for enterprise needs. Our expertise includes:",
     features: [
       "Custom AI Model Development",
       "Computer Vision Solutions",

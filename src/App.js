@@ -21,7 +21,7 @@ function App() {
     <div className="App">
       <nav className={`navbar ${visible ? '' : 'navbar-hidden'}`}>
         <div className="nav-brand">
-          <Link to="/">Notiral AI</Link>
+          <Link to="/">Lorita AI</Link>
         </div>
         <div className="nav-links">
           <Link to="/">Home</Link>

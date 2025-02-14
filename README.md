@@ -1,6 +1,6 @@
-# Notiral AI Solutions
+# Lorita AI Solutions
 
-A modern React-based website for Notiral AI Solutions, showcasing AI services, team members, and company information.
+A modern React-based website for Lorita AI Solutions, showcasing AI services, team members, and company information.
 
 ## 🚀 Features
 
@@ -23,12 +23,12 @@ A modern React-based website for Notiral AI Solutions, showcasing AI services, t
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/haydarkadioglu/notiral-js.git
+git clone https://github.com/haydarkadioglu/lorita-js.git
 ```
 
 2. Install dependencies:
 ```bash
-cd notiral-js
+cd lorita-js
 npm install
 ```
 
@@ -66,4 +66,4 @@ This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) fi
 
 ## 🌐 Live Demo
 
-Visit our website: [notiral.com.tr](https://notiral.com.tr)
+Visit our website: [lorita.com.tr](https://notiral.com.tr)
